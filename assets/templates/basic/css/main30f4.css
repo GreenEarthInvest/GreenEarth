@@ -3712,6 +3712,13 @@ select:disabled {
     background: aliceblue;
 }
 
+
+.faq-item .faq-content {
+    display: block !important; /* Makes the content visible */
+    max-height: none !important; /* Removes any height restrictions */
+    overflow: visible !important; /* Prevents text from being cut off */
+}
+
 /*Contact Section Starts Here*/
 .contact-form {
     margin-bottom: -20px;
